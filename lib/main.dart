@@ -14,9 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Reto 1',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData.dark(),
       debugShowCheckedModeBanner: false,
       home: const MyHomePage(title: 'Mintic - Reto No 1'),
     );
